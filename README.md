@@ -29,9 +29,20 @@
 
 ### Installing
 
-  Install the npm requirements
+  1. First Time Project Setup
+    use `create-react-app`.
+    ```bash
+    sudo npm i -g create-react-app
+    PROJECT_NAME='hello-world'
+    create-react-app $PROJECT_NAME
+    cd $PROJECT_NAME
+    npm start
+    ```
+
+  2. After Cloning: Install the npm requirements
   ```bash
   npm install
+  npm start
   ```
 
 
